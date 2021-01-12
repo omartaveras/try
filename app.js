@@ -62,9 +62,39 @@
 //     console.log(chart)
 // }
 
-const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+// const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 
-for (let sqr of numbers) {   
-    console.log(sqr*sqr);
+// for (let sqr of numbers) {   
+//     console.log(sqr*sqr);
     
+// }
+
+// iterating over objects
+
+const testScores = {
+    Nas: 80,
+    Big: 76,
+    Tupac: 89,
+    JayZ: 90,
+    KrsOne:100
+        
 }
+
+// for (let artists in testScores) {
+//     console.log(`${artists} scored:${testScores[artists]}`);
+// }
+
+// let total = 0;
+// for (let score of Object.values(testScores)) {
+//     total += score;
+// }
+// console.log(total);
+
+let total = 0;
+let scores = Object.values(testScores);
+for (let score of scores) {
+    total += score;    
+}
+console.log(`Scores: ${scores}`);
+console.log(`Sum scores: ${total}`)
+console.log(`Average: ${total / scores.length}`);
