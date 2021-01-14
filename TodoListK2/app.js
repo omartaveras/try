@@ -8,6 +8,9 @@ while (input !== 'quit' && input !== "q") {
             console.log(`${i}: ${todos[i]}`)
         }
         console.log("********************************");
+    } else if (input === "new") {
+        const newTodo = prompt("OK, what is the new todo?");
+        todos.push(newTodo);        
     }
     input = prompt("What would you like to do?");
 }
