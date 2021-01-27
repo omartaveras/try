@@ -1,4 +1,5 @@
 //App dev inprogress.. .
+//Sample Stick
 
 input = prompt("What would you like to do?");
 const todos = ['Collect Sample', 'Find Vinyls', 'Sampling' ]
