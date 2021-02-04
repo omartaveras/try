@@ -9,3 +9,11 @@ function repeat(str, numTime) {
     }
     console.log(result);
 }
+
+function isSnakeEyes(num1, num2) {
+    if (num1 === 1 && num2 === 1) {
+        console.log('Snake eyes!')
+    } else (
+        console.log('Not Snake eyes. :.(')
+    )
+}
