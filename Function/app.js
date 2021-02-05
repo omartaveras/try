@@ -17,3 +17,11 @@ function isSnakeEyes(num1, num2) {
         console.log('Not Snake eyes. :.(')
     )
 }
+
+function add(x, y) {
+    if (typeof x !== 'number' || typeof y !== 'number') {
+        return false;
+    }
+    let sum = x + y;
+    return sum;
+}
