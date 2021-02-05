@@ -22,6 +22,12 @@ function add(x, y) {
     if (typeof x !== 'number' || typeof y !== 'number') {
         return false;
     }
-    let sum = x + y;
-    return sum;
+    return x + y;
+}
+
+function isShortsWeather(temperature) {
+    if (temperature >= 75) {
+        return true;
+    } 
+    return false;
 }
