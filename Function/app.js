@@ -31,3 +31,7 @@ function isShortsWeather(temperature) {
     } 
     return false;
 }
+
+function lastElement() {
+    return console.log(lastElement[0]);
+}
